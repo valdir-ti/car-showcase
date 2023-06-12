@@ -11,3 +11,7 @@ export interface SearchManufactureProps {
     setManufacture: (manufacture: string) => void;
     manufacture: string
 }
+
+export interface CustomFilterProps {
+    title: string
+}
