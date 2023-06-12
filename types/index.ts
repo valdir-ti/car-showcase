@@ -37,3 +37,8 @@ interface Car {
 export interface CarCardProps {
     car: Car
 }
+export interface CarDetailsProps {
+    car: Car
+    isOpen: boolean
+    closeModal: () => void
+}
