@@ -19,7 +19,7 @@ export interface CustomFilterProps {
     title: string
 }
 
-interface Car {
+export interface Car {
     city_mpg: number
     class: string
     combination_mpg: number
